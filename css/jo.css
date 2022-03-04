@@ -45,6 +45,10 @@ color: white;
 position: relative;
 height: 100vh;
 }
+.landing .container .main-box{
+  background-color: darkred;
+    opacity: 1.6;
+}
 
 .landing .container img{
   width: 350px;
@@ -53,6 +57,14 @@ height: 100vh;
   margin: 0 auto;
   transition: 0.3s;
 }
+@media(max-width: 767px){
+  .landing .container img{
+    width: 165px;
+    height: 165px;
+  }
+}
+
+
 
 
 .landing .container .main-box .sub-box{
@@ -60,6 +72,11 @@ height: 100vh;
     justify-content: center;
     padding: 35px 0;
     align-items: center;
+}
+@media(max-width: 767px){
+  .landing .container .main-box .sub-box{
+    padding: 20px 0;
+  }
 }
 .landing .container .main-box .sub-box i{
   margin-right: 20px;
@@ -75,6 +92,18 @@ height: 100vh;
   text-decoration: none;
   font-size: 22px;
   transition: 0.3s;
+}
+@media(max-width: 767px){
+  .landing .container .main-box .sub-box i,
+  .landing .container .main-box .sub-box a{
+    font-size: 17px;
+  }
+}
+@media(max-width: 316px){
+  .landing .container .main-box .sub-box i,
+  .landing .container .main-box .sub-box a{
+    font-size: 14px;
+  }
 }
 .landing .container .main-box .sub-box a:hover{
   color: red;
