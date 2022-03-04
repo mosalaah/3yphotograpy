@@ -45,10 +45,7 @@ color: white;
 position: relative;
 height: 100vh;
 }
-.landing .container .main-box{
-  background-color: darkred;
-    opacity: 1.6;
-}
+
 
 .landing .container img{
   width: 350px;
@@ -75,7 +72,8 @@ height: 100vh;
 }
 @media(max-width: 767px){
   .landing .container .main-box .sub-box{
-    padding: 20px 0;
+    padding: 11px 0;
+    justify-content: flex-start;
   }
 }
 .landing .container .main-box .sub-box i{
@@ -92,6 +90,8 @@ height: 100vh;
   text-decoration: none;
   font-size: 22px;
   transition: 0.3s;
+  font-family: 'Cinzel', serif;
+
 }
 @media(max-width: 767px){
   .landing .container .main-box .sub-box i,
@@ -107,6 +107,13 @@ height: 100vh;
 }
 .landing .container .main-box .sub-box a:hover{
   color: red;
+}
+.landing .container .text{
+  font-family: 'Cinzel', serif;
+  padding: 25px 0px;
+}
+.landing .container .text:hover{
+  color: darkslateblue;
 }
 
 
