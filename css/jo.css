@@ -74,6 +74,7 @@ height: 100vh;
   .landing .container .main-box .sub-box{
     padding: 20px 0;
     justify-content: flex-start;
+    margin-left: 8px;
   }
 }
 .landing .container .main-box .sub-box i{
@@ -111,6 +112,7 @@ height: 100vh;
 .landing .container .text{
   font-family: 'Cinzel', serif;
   padding: 25px 0px;
+  margin-left: 8px;
 }
 .landing .container .text:hover{
   color: darkslateblue;
