@@ -72,7 +72,7 @@ height: 100vh;
 }
 @media(max-width: 767px){
   .landing .container .main-box .sub-box{
-    padding: 11px 0;
+    padding: 20px 0;
     justify-content: flex-start;
   }
 }
@@ -115,7 +115,17 @@ height: 100vh;
 .landing .container .text:hover{
   color: darkslateblue;
 }
+.landing .container .content{
 
+}
+@media(max-width: 767px){
+  .landing .container .content{
+    border: 1px solid #888888;
+    border-radius: 2%;
+    padding: 2px;
+    box-shadow: 5px 8px 8px #888888;
+  }
+}
 
 
   /*end landing*/
