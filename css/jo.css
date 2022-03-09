@@ -39,7 +39,7 @@
   /* End Global Rules */
   /*start landing*/
 .landing{
-background-image: url(../images/back3.jpg);
+background-image: url(../images/cc.jpg);
 background-size: cover;
 color: white;
 position: relative;
@@ -126,7 +126,7 @@ height: 100vh;
     border: 1px solid #888888;
     border-radius: 2%;
     padding: 2px;
-    box-shadow: 5px 8px 8px #888888;
+    box-shadow: 0 2px 15px rgb(57 1 1);
     position: relative;
     top: 35px;
   }
